@@ -13,6 +13,10 @@ public class Person {
         System.out.println(name + " says: Hello");
     }
 
+    public void sayHello(Person contact) {
+        System.out.println(name + " says: Hello " + contact.getName());
+    }
+
     public void move(Adresse neueAdresse) {
         anschrift = neueAdresse;
     }
