@@ -6,7 +6,7 @@
 
     <groupId>de.fham.it</groupId>
     <artifactId>day-two</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>day-two</name>
