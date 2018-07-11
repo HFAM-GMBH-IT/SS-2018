@@ -23,4 +23,15 @@ public class Handwerker extends Person {
     public Handwerker(String name) {
         super(name);
     }
+
+    public void sayHello() {
+        int a = 10;
+        int s = a + 3;
+
+        double d = 11.9;
+        d = d + a;
+
+        System.out.println(getName() + " says: Hello " + a);
+    }
+
 }

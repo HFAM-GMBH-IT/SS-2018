@@ -21,7 +21,7 @@ public class Programmierer extends Person {
     }
 
     public void sayHello() {
-        super.sayHello();
+        // super.sayHello();
         System.out.println(getName() + " continues his programming work.");
     }
 }
