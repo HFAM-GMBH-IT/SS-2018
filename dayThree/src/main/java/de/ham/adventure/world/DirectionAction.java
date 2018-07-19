@@ -1,6 +1,7 @@
 package de.ham.adventure.world;
 
 import de.ham.adventure.Player;
+import de.ham.adventure.Weapon;
 
 public class DirectionAction extends Action {
 
@@ -19,7 +20,7 @@ public class DirectionAction extends Action {
     }
 
     @Override
-    public void execute(Player aPlayer, Item aTarget, Item withObject) {
+    public void execute(Player aPlayer, Weapon aTarget, Item withObject) {
         aPlayer.move(location);
     }
 }

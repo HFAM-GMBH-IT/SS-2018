@@ -1,44 +1,32 @@
 package de.ham.business.data.model;
 
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Person {
-    private String name = null;
-    private Date dateOfBirth;
-    private Gender sex;
+    private List<Telephone> phones;
+    private BankAccount account;
+    private Address address;
+    private String name;
 
-    public static class Gender {
-        public static String female = "F";
-        public static String male = "m";
+    public Person(String theName) {
+        name = theName;
+        phones = new ArrayList<>();
+        account = new BankAccount();
+        address = new Address(Address.AddressType.POSTAL, "");
     }
 
-    public Person() {
-        dateOfBirth = new Date();
+    public void addPhone(Telephone theTelephone) {
+        phones.add(theTelephone);
     }
 
-    public Person(String personName) {
-        name = personName;
-        dateOfBirth = new Date();
-    }
-
-    public Person(String personName, Date birthDate) {
-        name = personName;
-        dateOfBirth = birthDate;
-    }
-
-    public Date getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void sayHello() {
-        System.out.println("Eine Person sagt: Hello.");
-    }
-
-    public int caluclateYearsRemaining() {
-        return 42;
+    @Override
+    public String toString() {
+        return "Person {" +
+                "phones=" + phones +
+                ", account=" + account +
+                ", address=" + address +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

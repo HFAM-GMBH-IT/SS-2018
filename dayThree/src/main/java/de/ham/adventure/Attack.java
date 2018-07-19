@@ -8,7 +8,8 @@ public class Attack extends Action {
         return "Attack";
     }
 
-    public void execute(Player target, Item weapon) {
+    public void execute(Player target, Weapon weapon, Item another) {
+
         weapon.doDamage(target);
     }
 }
