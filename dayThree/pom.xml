@@ -14,51 +14,20 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <developers>
+        <developer>
+            <name>Elena</name>
+        </developer>
+        <developer>
+            <name>Wolfgang</name>
+        </developer>
+        <developer>
+            <name>Michael</name>
+            <email>michael.wiedmer@fham.de</email>
+        </developer>
+    </developers>
+
     <dependencies>
-<!--
-        <dependency>
-      		   <groupId>org.vaadin.addons</groupId>
-      		   <artifactId>vaadin-combobox-multiselect</artifactId>
-      		   <version>1.1.14</version>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-server</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-client-compiled</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-client</artifactId>
-      			<scope>provided</scope>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-client-compiler</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-push</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>com.vaadin</groupId>
-      			<artifactId>vaadin-themes</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>org.vaadin.addons</groupId>
-      			<artifactId>animator</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>org.vaadin.addons</groupId>
-      			<artifactId>loginform</artifactId>
-      		</dependency>
-      		<dependency>
-      			<groupId>org.vaadin.addons</groupId>
-      			<artifactId>resetbuttonfortextfield</artifactId>
-      		</dependency>
--->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
