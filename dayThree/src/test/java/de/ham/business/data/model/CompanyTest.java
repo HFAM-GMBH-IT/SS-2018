@@ -7,10 +7,21 @@ import static org.junit.Assert.assertThat;
 import org.junit.Ignore;
 import org.junit.Test;
 
+/**
+ * Dies ist ein UnitTest. Er ist für die Klasse <code>Company</code> gedacht. Daher hat dieser Test den Namen
+ * <code>CompanyTest</code> und ist im gleichen package wie die zu testende Klasse. Er kann somit auf sogenannte
+ * package-private Eigenschaften der <code>Company</code>-Klasse zugreifen.
+ */
 public class CompanyTest {
 
+    /**
+     * <code>systemUnderTest</code> wird für jeden Test neu erstellt.
+     */
     private Company systemUnderTest = new Company();
 
+    /**
+     * Mit der Annotation <code>@Test</code> deklarieren wir eine vom JUnit-Framework auszuführende Testmethode.
+     */
     @Test
     public void hire() {
         try {
@@ -37,7 +48,6 @@ public class CompanyTest {
     }
 
     @Test
-    @Ignore
     public void checkBankAccount() {
         // given
 
@@ -48,4 +58,19 @@ public class CompanyTest {
         // then
         assertThat(systemUnderTest.getBankAccount(), is(bankAccount));
     }
+
+    /**
+     * Diese Testmethode wird ignoriert und nicht von Junit ausgeführt.
+     */
+    @Test
+    @Ignore
+    public void ignoreThisTestmethod() throws Exception {
+        // given
+
+        // when
+
+        // then
+
+    }
+
 }
