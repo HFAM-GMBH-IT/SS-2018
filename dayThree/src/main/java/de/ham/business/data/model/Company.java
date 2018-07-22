@@ -124,6 +124,8 @@ public class Company {
      * nicht public. Sie ist aber auch weder protected noch private damit sie problemlos von Klassen im gleichen
      * Package aufgerufen werden kann, z.B. von Tests...
      *
+     * @see <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html">access controll</a>
+     *
      * @return eine Liste mit Angestellten
      */
     List<Employee> getEmployees() {

@@ -8,9 +8,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 /**
- * Dies ist ein UnitTest. Er ist für die Klasse <code>Company</code> gedacht. Daher hat dieser Test den Namen
- * <code>CompanyTest</code> und ist im gleichen package wie die zu testende Klasse. Er kann somit auf sogenannte
- * package-private Eigenschaften der <code>Company</code>-Klasse zugreifen.
+ * Diese Klasse enthählt ein UnitTests. Sie ist für die Klasse <code>Company</code> gedacht. Daher hat sie den Namen
+ * <code>CompanyTest</code> und ist im gleichen package wie die zu testende Klasse. Somit kann diese Klasse auf
+ * sogenannte <code>package-private</code> Eigenschaften der <code>Company</code>-Klasse zugreifen.
  */
 public class CompanyTest {
 
