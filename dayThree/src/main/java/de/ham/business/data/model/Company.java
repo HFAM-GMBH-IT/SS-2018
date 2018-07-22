@@ -51,7 +51,7 @@ public class Company {
         account = new BankAccount();
 
         /**
-         * Das Hinzufügen von Adressen geschieht bei beiden Implementierungsmöglichkeiten ähnlich.
+         * Das Hinzufügen von Adressen geschieht bei diesen beiden Implementierungsmöglichkeiten ähnlich.
          *
          *
          * addresses.add(new Address(Address.AddressType.POSTAL, ""));
